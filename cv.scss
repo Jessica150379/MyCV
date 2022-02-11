@@ -1,0 +1,60 @@
+body{
+    background-color: blue;
+    display:flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+
+
+#container{
+    position: relative;
+    width:100%;
+    min-height: 1000px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+#left-side{
+    position: relative;
+    background-color: aqua;
+    padding:10px;
+    box-shadow: dimgray (0,0,0,1);
+    padding-left:10%;
+
+    
+}
+
+#right-side{
+    position: relative;
+    background-color: rgb(255, 243, 192);
+    padding: 100px;
+    
+}
+.jessica{
+    height: 200px;
+    width: 200px;
+    padding-left:15%;
+    padding-top:10%;
+}
+
+.img{
+    justify-content: center;
+}
+.line{
+    padding-bottom: 15px;
+    
+    border-bottom: 1px solid darkslategray;
+}
+
+.right{
+    text-align: right;
+}
+
+.name{
+    padding-left: 20%;
+}
