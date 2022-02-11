@@ -1,0 +1,63 @@
+body {
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  min-height: 1000px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#left-side {
+  position: relative;
+  background-color: aqua;
+  padding: 10px;
+  -webkit-box-shadow: dimgray 0, 0, 0, 1;
+          box-shadow: dimgray 0, 0, 0, 1;
+  padding-left: 10%;
+}
+
+#right-side {
+  position: relative;
+  background-color: #fff3c0;
+  padding: 100px;
+}
+
+.jessica {
+  height: 200px;
+  width: 200px;
+  padding-left: 15%;
+  padding-top: 10%;
+}
+
+.img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.line {
+  padding-bottom: 15px;
+  border-bottom: 1px solid darkslategray;
+}
+
+.right {
+  text-align: right;
+}
+
+.name {
+  padding-left: 20%;
+}
+/*# sourceMappingURL=cv.css.map */
